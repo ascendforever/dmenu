@@ -440,7 +440,8 @@ vi_keypress(KeySym ksym, const XKeyEvent *ev)
 		break;
 	/* insertion */
 	case XK_a:
-		cursor = nextrune(+1);
+		if (text[cursor] != '\0')
+			cursor = nextrune(+1);
 		/* fallthrough */
 	case XK_i:
 		using_vi_mode = 0;
@@ -1005,3 +1006,4 @@ main(int argc, char *argv[])
 
 	return 1; /* unreachable */
 }
+
