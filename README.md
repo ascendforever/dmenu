@@ -6,7 +6,8 @@ This is a fork of suckless `dmenu` with a few patches and custom configurations 
 `dmenu` is an efficient dynamic menu for X.
 
 ##### Patches
-- vi mode
+- [vi mode](https://tools.suckless.org/dmenu/patches/vi-mode/)
+- [xresources-alt](https://tools.suckless.org/dmenu/patches/xresources-alt/)
 
 ##### Other changes
 - Alternate colorscheme
