@@ -41,7 +41,7 @@ void drw_font_getexts(Fnt *font, const char *text, unsigned int len, unsigned in
 /* Colorscheme abstraction */
 void drw_clr_create(Drw *drw, Clr *dest, const char *clrname);
 void drw_clr_free(Drw *drw, Clr *c);
-Clr *drw_scm_create(Drw *drw, const char *clrnames[], size_t clrcount);
+Clr *drw_scm_create(Drw *drw, char *clrnames[], size_t clrcount);
 void drw_scm_free(Drw *drw, Clr *scm, size_t clrcount);
 
 /* Cursor abstraction */
@@ -58,3 +58,4 @@ int drw_text(Drw *drw, int x, int y, unsigned int w, unsigned int h, unsigned in
 
 /* Map functions */
 void drw_map(Drw *drw, Window win, int x, int y, unsigned int w, unsigned int h);
+
