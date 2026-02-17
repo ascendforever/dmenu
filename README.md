@@ -45,7 +45,7 @@ printf 'deb [signed-by=/usr/share/keyrings/ascendforever.gpg] http://csjkrevghyc
 
 #### Install
 ```bash
-sudo apt install -y dmenu
+sudo apt install -y dmenu-af
 ```
 
 
